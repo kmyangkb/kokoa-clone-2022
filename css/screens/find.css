@@ -2,17 +2,21 @@
     display: flex;
     justify-content: space-between;
   }
+  
   .find-icons__icon {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  
   .find-icons__icon i {
     font-size: 35px;
   }
+  
   .find-icons__icon span {
     margin-top: 18px;
   }
+  
   .recommended-friends {
     margin: 25px 0px;
     padding: 25px 0px;
@@ -39,13 +43,11 @@
   .open-chat__header span {
     opacity: 0.6;
   }
-  
   .open-post {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
   .open-post__title {
     font-weight: 600;
     margin-bottom: 7px;
@@ -78,11 +80,9 @@
   .open-post__member-status {
     color: #ffb0e0;
   }
-  
   .open-post__photo {
     position: relative;
   }
-  
   .open-post__photo img {
     width: 120px;
     height: 120px;
@@ -100,7 +100,6 @@
     right: 10px;
     font-size: 12px;
   }
-  
   .open-post__heart-count span {
     margin-left: 3px;
   }
